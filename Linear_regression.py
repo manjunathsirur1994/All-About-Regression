@@ -1,3 +1,25 @@
+# Types of Regression: 
+
+# 1. Linear regression
+# 2. polynomial regression
+# 3. Ridge regression
+# 4. lasso regressio
+# 5. elastic net regression
+# 6. logistic regression
+# 7. quantile regression
+# 8. Bayesian regression
+# 9. poisson regression
+# 10. ordinal regression
+# 11. support vector regression
+# 12. decision tree regression
+# 13. random forest regression
+# 14. xg boost regression
+# 15. Laplacian regression
+
+
+# Linear regression with sklearn's Linear regression
+# ---------------------------------------------------------
+
 import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
@@ -37,3 +59,5 @@ y_pred = model.predict(x_test)
 
 print(f'coef_: {model.coef_}')
 print(f'intercept: {model.intercept_}')
+
+# ----------------------------END----------------------------------------
